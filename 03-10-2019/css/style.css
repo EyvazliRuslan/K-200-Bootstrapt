@@ -1,0 +1,80 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+/* header{
+    position: fixed;
+    top: 0%;
+    left: 0;
+    right: 0;
+    background: white;
+    z-index: 5;
+} */
+li{
+    list-style: none;
+}
+.logo>div>div>span{
+    font-size: 25px;  
+    font-weight: 700; 
+    cursor: pointer; 
+    transition:  color .4s ease-in-out;
+}
+.logo>div>div>span:hover{
+    color: #0087ab;
+    
+}
+.Navbar> ul>li>a{
+    color: black;
+    transition:  color .4s ease-in-out;
+}
+.Navbar> ul>li>a:hover{
+    color: #0087ab;
+    text-decoration: none;
+}
+.Navbar>ul>li:last-child>a{
+    color: #0087ab ;
+}
+.Navbar>ul>li:last-child>a:hover{
+    color: white;
+}
+#Header .logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.respons{
+    display: none;}
+.arxa-fon{
+    overflow: hidden;
+    position: relative;
+    color: white;}
+.arxa-fon img{
+    transition: transform .4s ease-in;}
+.overlay{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%}
+.arxa-fon:hover img{
+    transform: scale(1.075);}
+.arxa-fon:hover .overlay{
+    background: #0087ab;
+    opacity: .75;}
+.padding-top{
+    padding-top: 27px;}
+@media (max-width:578px){
+    #Header{
+        padding: 30px 0;
+    }
+    .respons{
+        display: block;
+    }
+    .disp-none{
+        display: none;
+    }
+    .padding-top{
+        padding-top: 0px !important;
+    }
+}
